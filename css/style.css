@@ -1,0 +1,164 @@
+body{
+    height: 100%;
+    margin: 0px;
+    text-align: center;
+    font-family: 'Merriweather',"Open sans" ,sans-serif;
+    color: #40514E;
+    font-weight: bold;
+    word-spacing: 5px;
+}
+
+h1{
+    font-family: 'Sacramento', cursive;
+    margin: 50px auto 0px auto;
+    font-size: 5.625rem;
+    color:#24caeb;
+}
+
+
+h2{
+    font-family: 'Edu NSW ACT Foundation', cursive;
+    font-size: 2.5rem;
+    font-weight: normal;
+    color:#24caeb;
+}
+
+
+h3{
+    font-family: 'Lato', sans-serif;
+    color:#24caeb;
+}
+
+
+.top-container{
+    background-color: #d1f7ff;
+    position: relative; 
+    padding-top: 100px;
+    width: 100%;
+}
+
+
+.cl1{
+    position: absolute;
+    right: 280px;
+    top: 60px;
+}
+
+
+.cl2{
+    position: absolute;
+    left: 260px;
+}
+
+.mount{
+    width: 70%;
+}
+
+.skill-row{
+    width: 50%;
+    margin: 100px auto 100px auto;
+    text-align: left;
+    line-height: 2;
+}
+
+.avatar1{
+    width: 25%; 
+    float: left;
+    margin-right: 30px;
+}
+
+
+.avatar2{
+    width: 25%; 
+    float: right;
+    margin-left: 30px;
+}
+
+.profile{
+    margin: 0px auto 0px auto;
+}
+
+hr{
+    border: dotted #EAF6F6;
+    border-bottom: none;
+    width: 4%;
+    margin: 100px auto 100px auto;
+}
+
+.middle-container{
+    margin: 100px auto 100px auto;
+    width: 100%;
+}
+
+.bottom-container{
+    background-color: #66BFBF;
+    color: #EAF6F6;
+    padding: 25px;
+    font-size: 1.6rem;
+}
+
+.footer-link{
+    text-decoration: none;
+    font-size: 0.8rem;
+    margin: 0px 20px 0px 20px;
+    color: #11999E;
+}
+.footer-link:hover{
+    color: #dafeff;
+}
+
+.description{
+    line-height: 30px;
+}
+
+.contact-me{
+    width: 40%;
+    margin: 0 auto 0 auto;
+}
+
+.btm{
+    margin-top: 50px;
+    font-size: 0.5rem;
+}
+
+.btn{
+    text-decoration: none;
+    color: white;
+    background-image: linear-gradient(to bottom, #24caeb , #00a4c5);
+    padding: 4px 8px;
+    border-radius: 5px;
+    display: inline-block;
+    margin: 30px auto 0px auto;
+    font-family: sans-serif;
+    font-weight: lighter;
+}
+.btn:hover{
+    background-image: none;
+    background-color: #24caeb;
+    cursor: pointer;
+}
+
+p{
+    line-height: 1.7;
+}
+
+@media screen and (max-width: 1022px){
+    .profile h2,.description{
+        width: 256px;
+    }
+    .middle-container{
+        display: grid;
+        align-items: center;
+        justify-items: center;
+    }
+    .contact-me{   
+        width: 70%;
+    }
+    .avatar1,.avatar2{
+        width: 45%;
+        float: none;
+        margin: 0 30% 0 25%;
+    }
+    
+    
+}

@@ -159,6 +159,10 @@ p{
         float: none;
         margin: 0 30% 0 25%;
     }
-    
-    
+    .cl2{
+       display: none;
+    }
+    .cl1{
+        right: 20px;
+    }
 }
